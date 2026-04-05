@@ -94,10 +94,10 @@ Note: Get your Cloudflare Turnstile keys from Cloudflare Dashboard
 4. Set Up Cron Jobs (Recommended)
 
 # Daily reset at midnight - resets spins to 12
-0 0 * * * curl -s https://adcoin.one/cron/daily_reset.php
+0 0 * * * curl -s https://yourdomain.com/cron/daily_reset.php
 
 # Verify slots every 10 minutes - checks token holdings
-*/10 * * * * curl -s https://adcoin.one/cron/verify_slots.php
+*/10 * * * * curl -s https://yourdomain.com/cron/verify_slots.php
 🔗 URL Structure
 
 Route	Description
